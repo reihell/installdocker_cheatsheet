@@ -4,20 +4,14 @@ from https://www.digitalocean.com/community/tutorials/how-to-install-and-use-doc
   - Install Ubuntu Server 18.04
   - sudo apt update
   - sudo apt upgrade -y
+  - sudo apt install apt-transport-https
+  - curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  - sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+  - sudo apt update
 
+  Check if Docker is available from repository
 
-
-sudo apt install apt-transport-https
-
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
-
-sudo apt update
-
-Check if Docker is available from repository
-
-apt-cache policy docker-ce
+  - apt-cache policy docker-ce
 
 docker-ce:
   Installed: (none)
