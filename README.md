@@ -10,8 +10,8 @@ from https://www.digitalocean.com/community/tutorials/how-to-install-and-use-doc
   - sudo apt update
 
 ###  Check if Docker is available from repository
-
-  - apt-cache policy docker-ce
+```
+  apt-cache policy docker-ce
 
   docker-ce:
     Installed: (none)
@@ -19,7 +19,7 @@ from https://www.digitalocean.com/community/tutorials/how-to-install-and-use-doc
     Version table:
        18.03.1\~ce\~3\-0\~ubuntu 500
           500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
-
+```
   - sudo apt install docker-ce
   - sudo systemctl status docker
   - sudo usermod -aG docker ${USER}
