@@ -17,7 +17,7 @@ from https://www.digitalocean.com/community/tutorials/how-to-install-and-use-doc
     Installed: (none)
     Candidate: 18.03.1~ce~3-0~ubuntu
     Version table:
-       18.03.1~ce~3-0~ubuntu 500
+       18.03.1\~ce\~3\-0\~ubuntu 500
           500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
 
   - sudo apt install docker-ce
