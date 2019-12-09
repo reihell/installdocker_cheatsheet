@@ -12,7 +12,7 @@ from https://www.digitalocean.com/community/tutorials/how-to-install-and-use-doc
   Check if Docker is available from repository
 
   - apt-cache policy docker-ce
-
+[df1]
 docker-ce:
   Installed: (none)
   Candidate: 18.03.1~ce~3-0~ubuntu
