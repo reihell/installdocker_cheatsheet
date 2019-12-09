@@ -20,16 +20,11 @@ docker-ce:
      18.03.1~ce~3-0~ubuntu 500
         500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
 
-sudo apt install docker-ce
+  - sudo apt install docker-ce
+  - sudo systemctl status docker
+  - sudo usermod -aG docker ${USER}
+  - sudo reboot (or logout)
+  - su - ${USER}
+  - id -nG
 
-sudo systemctl status docker
-
-sudo usermod -aG docker ${USER}
-
-sudo reboot (or logout)
-
-su - ${USER}
-
-id -nG
-
-If you need to add a user to the docker group that you're not logged in as, declare that username explicitly using: sudo usermod -aG docker username
+  If you need to add a user to the docker group that you're not logged in as, declare that username explicitly using: sudo usermod -aG docker username
