@@ -9,10 +9,10 @@ from https://www.digitalocean.com/community/tutorials/how-to-install-and-use-doc
   - sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
   - sudo apt update
 
-  Check if Docker is available from repository
+###  Check if Docker is available from repository
 
   - apt-cache policy docker-ce
-[df1]
+
 docker-ce:
   Installed: (none)
   Candidate: 18.03.1~ce~3-0~ubuntu
